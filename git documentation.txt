@@ -1,0 +1,50 @@
+Jb bhi new project git main ly ker jana ha to sb sy pehly ap k pas 2 chexain honi chaheyay hain
+1- git per account
+2- git ka software jo k ap idher sy download ker skty hain  https://git-scm.com/
+
+is k bad ap ny aik new repository banani ha git per jis main ap apny project ki files ko store kerian gy.
+us k liyay ap github per login kerian gy or us k bad new repository bnaen gy or fields ko fill ker k submit kerain
+gy us k bad woh ap ko kuch notes dikhaey ga
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/SajidAli65/test.git
+git push -u origin master
+
+
+// 
+
+Is k bad ap ny apny system main us folder per chalay jana ha jisya ap git
+per move kerna chahty hain jesa k test jis k andar tmam files pari hoon gi.
+
+ab choonky ap git ka software install ker chukay hain jo k upar point 2 per mention ha, ab folder per
+right click ker k git bash option per click ker dain us k baad ap ki git ki window open ho jaey gi.
+
+ab ap ny yay command daini ha idher
+1- git init
+2- git commit -m "first commit"
+3- git remote add origin https://github.com/SajidAli65/test.git [jo udher github per show keray ga woh]
+4- git push -u origin master
+
+is k bad ap sy woh username password mangy ga woh dain gy to ap ka sara code woh git per ly jaey ga.
+
+Git per kam kesay kerna ha
+
+Git per kam kernay k liyay ap ko git bash run kerna ho ga or agr nahi bhi kerain gy to woh khudi jo bhi
+branch ho gi us per woh sara kam ly jaey ga. Kisi bhi file main us k folder k andar koi bhi change kerain
+gy to woh git bash main show ker dy ga yay likh ker "git status". 
+
+ab agr kisi file main change ki ha to git status kerain gy git walay software main to ap ko bta dy ga
+k kis file main change hoi ha.
+phir ager woh change sahi ha or ap ny git per move kerni ha to ap usay is method k through move kerain
+
+1- git add -A
+2- git commit -m "yahan per apna message rakh lijia ga apni asani k liyay"
+3- git pull origin master
+3- git push origin master
+
+is k bad woh ap k data git per move ker dy ga.
+
+git pull origin master
+git push origin master
